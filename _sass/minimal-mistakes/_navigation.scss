@@ -334,7 +334,7 @@
   @include breakpoint(max-width ($large - 1px)) {
     label {
       position: relative;
-      display: inline-block;
+      display: block;
       padding: 0.5em 2.5em 0.5em 1em;
       color: $gray;
       font-size: $type-size-6;
@@ -345,6 +345,9 @@
       -webkit-transition: 0.2s ease-out;
       transition: 0.2s ease-out;
       cursor: pointer;
+      margin-left: auto;
+      margin-right: auto;
+      width: 15em;
 
       &:before,
       &:after {

@@ -2,12 +2,12 @@
 layout: splash
 permalink: /
 header:
-  overlay_color: "#5e616c"
-  overlay_image: /assets/images/mm-home-page-feature.jpg
-  cta_label: "<i class='fas fa-download'></i> Install Now"
+  overlay_image: /assets/images/fg-home-page-feature.jpg
+  cta_label: "<i class='fas fa-play'></i> Try Now"
   cta_url: "/docs/quick-start-guide/"
   caption:
-excerpt: 'A flexible two-column Jekyll theme. Perfect for personal sites, blogs, and portfolios hosted on GitHub or your own server.<br /> <small><a href="https://github.com/mmistakes/minimal-mistakes/releases/tag/4.10.1">Latest release v4.11.1</a></small><br /><br /> {::nomarkdown}<iframe style="display: inline-block;" src="https://ghbtns.com/github-btn.html?user=mmistakes&repo=minimal-mistakes&type=star&count=true&size=large" frameborder="0" scrolling="0" width="160px" height="30px"></iframe> <iframe style="display: inline-block;" src="https://ghbtns.com/github-btn.html?user=mmistakes&repo=minimal-mistakes&type=fork&count=true&size=large" frameborder="0" scrolling="0" width="158px" height="30px"></iframe>{:/nomarkdown}'
+excerpt: 'Tired of stringing libraries together?<br />Try a new web framework to do complex things, easily.<br /> <small><a href="https://github.com/mmistakes/minimal-mistakes/releases/tag/4.10.1">Watch/read the intro⚡</a></small><br /> {::nomarkdown}<small><a href="https://github.com/mmistakes/minimal-mistakes/releases/tag/4.10.1">Follow on github <i class="fab fa-github" aria-hidden="true"></i></a></small>{:/nomarkdown}'
+
 feature_row:
   - image_path: /assets/images/mm-customizable-feature.png
     alt: "customizable"
@@ -30,12 +30,18 @@ feature_row:
     url: "/docs/license/"
     btn_class: "btn--primary"
     btn_label: "Learn More"
-github:
-  - excerpt: '{::nomarkdown}<iframe style="display: inline-block;" src="https://ghbtns.com/github-btn.html?user=mmistakes&repo=minimal-mistakes&type=star&count=true&size=large" frameborder="0" scrolling="0" width="160px" height="30px"></iframe> <iframe style="display: inline-block;" src="https://ghbtns.com/github-btn.html?user=mmistakes&repo=minimal-mistakes&type=fork&count=true&size=large" frameborder="0" scrolling="0" width="158px" height="30px"></iframe>{:/nomarkdown}'
+
 intro:
-  - excerpt: 'Get notified when I add new stuff &nbsp; [<i class="fab fa-twitter"></i> @mmistakes](https://twitter.com/mmistakes){: .btn .btn--twitter} [<i class="fab fa-paypal"></i> Tip Me](https://www.paypal.me/mmistakes){: .btn .btn--primary}'
+  - excerpt: '...try a new framework designed from the ground up to: <br />✨ make dashboards and visualise data (plots, maps, ...) <br />✨ author, organise and navigate documents <br />✨ insert dynamic calculations anywhere, via simple drag & drop <br />✨ make custom utilities visually (no coding required) <br />✨ use internal development tools to customise anything, as it runs<br />✨ do all of the above, concurrently'
+
+get_notified:
+  - excerpt: 'Get notified &nbsp; [<i class="fab fa-twitter"></i> @fizzygum](https://twitter.com/fizzygum){: .btn .btn--twitter}'
+
+
 ---
 
 {% include feature_row id="intro" type="center" %}
 
 {% include feature_row %}
+
+{% include feature_row id="get_notified" type="center" %}

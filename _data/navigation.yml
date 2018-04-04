@@ -28,9 +28,6 @@ main:
     url: /year-archive/
   - title: "Sample Collections"
     url: /collection-archive/
-  - title: "Terms &amp; Privacy Policy"
-    url: /terms/
-
 
 # documentation links
 docs:
@@ -86,8 +83,6 @@ docs:
         url: /docs/docs-2-2/
       - title: "License"
         url: /docs/license/
-      - title: "Terms &amp; Privacy Policy"
-        url: /terms/
 
 # sidebar navigation list sample
 sidebar-sample:
